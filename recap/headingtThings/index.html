@@ -5,34 +5,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>SomeThings</title>
     <style>
-      body {
-        font-family: Arial, sans-serif;
+      * {
         margin: 0;
-        background-color: bisque;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        padding: 0;
+      }
+      body
+      {
+        margin: 0;
+    height: 300vh;
+    overflow-y: scroll;
+    background-image: url(https://imgs.search.brave.com/EVhKqRBmiMlUcE-4PbfRQHfC85ReEF4_B_LjAJ3KqIk/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly90My5m/dGNkbi5uZXQvanBn/LzAzLzUzLzAyLzQy/LzM2MF9GXzM1MzAy/NDI1NV9TOWdWdngz/bWtKRUxudGdXSWhV/Z2dKM1JOd0g0WEpY/cC5qcGc);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+      }
+      .heading
+      {
+        position: fixed;
+        top: 10%;
       }
       .wrapper
       {
+       
         display: flex;
         justify-content: center;
         align-items: center;
+        /* background-color: black; */
+        height: 300vh;
       }
- 
     </style>
   <script src="https://cdn.tailwindcss.com"></script>
 
 </head>
-<body class="h-[200vh] w-full">
-     <div class="rounded-full h-24 w-24 bg-red-800 flex-col flex justify-center items-center"> 
-        <div class="text-lg text-white">X</div>
-        <div class="text-lg text-white">Y</div>
-    </div>
+<body class="h-[100vh] w-full">
     <div class="wrapper">
-
-      <img src="image.png"  class="heading">
+      <img src="image.png"  class="heading" height="50px">
     </div>
-
+    <div class="blank"></div>
     <script src="app.js"></script>
 </html>
