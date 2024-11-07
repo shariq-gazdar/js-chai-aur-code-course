@@ -6,7 +6,7 @@ import { useState } from "react";
 function Navbar() {
   const [showMenu, setShowMenu] = useState(false);
   return (
-    <nav className="flex items-center gap-x-5 w-fit  border-b-2 border-gray-300 pb-2 -mt-2 ">
+    <nav className="flex items-center gap-x-1 lg:gap-x-5 w-fit   border-b-2 border-gray-300 pb-2 -mt-2 ">
       <FaBitcoin color="blue" size={40} />
       <h1 className="font-bold">Crypto Hub</h1>
       {showMenu && (
